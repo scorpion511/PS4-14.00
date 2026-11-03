@@ -3,7 +3,7 @@
 <p align="center">
   <img src="logo_scorp.png" alt="Scorpion Logo" width="150" height="150" style="border-radius: 50%; border: 2px solid #00e5ff; box-shadow: 0 0 15px #00e5ff, 0 0 30px #00e5ff; display: block; margin: 0 auto;"/>
 </p>
-
+LIVE SITE >>>>> https://scorpion511.github.io/PS4-14.00/
 Kernel exploit for the PlayStation 4 on firmware **13.52** and **14.00**, run from the console's own browser. It leaves the kernel readable and writable, `uid 0`, `mmap` handing out RWX and `syscall 11` as a kexec gate — so the usual payloads work as they do after any other kernel exploit.
 
 This is the browser version. The same exploit also runs as a Lua payload from inside a game process.
