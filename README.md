@@ -1,5 +1,8 @@
 # SCORPION HOST PS4 FIRMWARE 14.00
-
+⚡ SCORPION HACK ALL IN 1 ⚡
+Developed, Compiled, and Maintained By Ahmed Essam (scorpion511)
+Welcome to the official SCORPION HACK ALL IN 1 master repository. This ecosystem serves as a unified multi-generation portal and navigational routing interface designed for cross-platform homebrew deployments across PS3, PS4, and PS5 environments.
+⚖️ LEGAL COPYRIGHT & AUTHOR CHARTER
 <p align="center">
   <img src="logo_scorp.png" alt="Scorpion Logo" width="150" height="150" style="border-radius: 50%; border: 2px solid #00e5ff; box-shadow: 0 0 15px #00e5ff, 0 0 30px #00e5ff; display: block; margin: 0 auto;"/>
 </p>
