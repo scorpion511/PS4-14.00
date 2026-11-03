@@ -35,7 +35,7 @@ Each run has to begin on that page. The run page arms the chain only when it was
 | `goldhen.bin` | GoldHEN, included with the author's permission |
 | `patchset-1400.bin`, `patchset-1352.bin` | the kernel patches GoldHEN expects to find, one set per firmware |
 | `afterglow.js` | the core exploit execution layer logic |
-| `jb.js`, `ps4_offsets.js` | the raw13g host, trimmed |
+| `jb.js`, `ps4_offsets.js` | the SCORPION host, trimmed |
 | `core.js`, `mem.js`, `int64.js` | the in-process primitive, by way of that host |
 | `index.html`, `jb.html`, `launch.js`, `style.css`, `logo_scorp.png`, `img.jpg` | the landing page, custom background assets, and the run page layout |
 | `serve.sh` | the local server, with the headers this needs |
@@ -86,4 +86,4 @@ Issues and pull requests welcome, and so is a report that it simply worked. Say 
 
 Security research on hardware we own. No Sony code is redistributed.
 
-The custom shell scripts, configurations, and patch sets are maintained under standard open distribution rules; see `LICENSE`. The bundled code keeps its own terms: `jb.js`, `ps4_offsets.js` and the page scaffolding are raw13g's under the MIT license, reproduced in `LICENSE-raw13g`. `core.js`, `mem.js` and `int64.js` are a reworked fork of slopkit's primitive and carry no license of their own — where they come from is in `TECHNICAL.md`.
+The custom shell scripts, configurations, and patch sets are maintained under standard open distribution rules; see `LICENSE`. The bundled code keeps its own terms: `jb.js`, `ps4_offsets.js` and the page scaffolding are SCORPION's under the MIT license, reproduced in `LICENSE-SCORPION`. `core.js`, `mem.js` and `int64.js` are a reworked fork of slopkit's primitive and carry no license of their own — where they come from is in `TECHNICAL.md`.
