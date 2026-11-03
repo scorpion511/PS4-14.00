@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="landing" lang="en" manifest="cache.appcache">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SCORPION HOST PS4 FIRMWARE 14.00</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Adds img.jpg as the full-screen background */
+      body {
+        background-image: url('img.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      /* Glowing cyan effect for the Scorpion Host brand header */
+      #brand {
+        color: #00e5ff !important;
+        text-shadow: 0 0 10px #00e5ff, 
+                     0 0 20px #00e5ff, 
+                     0 0 30px #00e5ff;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      /* Circular glowing scorpion emblem layout */
+      .meme {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #00e5ff;
+        box-shadow: 0 0 15px #00e5ff, 
+                    0 0 30px #00e5ff, 
+                    inset 0 0 15px #00e5ff;
+        display: block;
+        margin: 0 auto 15px auto;
+      }
+
+      /* Glowing cyan effect for the bottom byline text */
+      .byline {
+        color: #00e5ff !important;
+        text-shadow: 0 0 10px #00e5ff, 
+                     0 0 20px #00e5ff;
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Every run starts from here. The referrer guard in jb.js arms the chain
+         only when it was reached from this page, so that a browser restoring
+         its last session cannot re-run it unattended. -->
+    <div id="brand"><b>SCORPION HOST PS4 FIRMWARE 14.00</b></div>
+
+    <div class="shell">
+      <img class="meme" src="logo_scorp.png" alt="" />
+
+      <main class="panel">
+        <p class="lede">PS4 kernel exploit &middot; firmware 13.52 and 14.00</p>
+
+        <form class="pick" id="pick">
+          <label class="opt">
+            <input type="radio" name="payload" value="hen" />
+            <span>ps4-hen</span>
+          </label>
+          <label class="opt">
+            <input type="radio" name="payload" value="goldhen" checked />
+            <span>GoldHEN</span>
+          </label>
+
+          <label class="opt opt-auto">
+            <input type="checkbox" id="auto" checked />
+            <span>autostart</span>
+          </label>
+
+          <button class="btn" type="submit">start</button>
+          <p class="count" id="count"></p>
+          <p class="count" id="cache" aria-live="polite"></p>
+        </form>
+      </main>
+    </div>
+
+    <p class="byline">Designed and Compiled By Ahmed Essam</p>
+    <script src="launch.js"></script>
+  </body>
+</html>
